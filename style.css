@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Mali:wght@500&display=swap');
+ 
+body {
+    position: relative;
+width: 1440px;
+height: 5964px;
+
+background: #FFFFFF;
+}
+
+
+.Desktop6 {
+position: absolute;
+width: 1440px;
+height: 1797px;
+left: 0px;
+top: -3px;
+
+background: linear-gradient(89.04deg, rgba(76, 41, 204, 0.104) 0.82%, rgba(254, 172, 149, 0.16) 99.24%);
+border-radius: 9px;
+}
+
+header img{
+    position: absolute;
+    width: 456px;
+    height: 337px;
+    left: -36px;
+    top: 21px;
+
+}
+
+header h1 {
+    position: absolute;
+width: 753px;
+height: 195px;
+left: 590px;
+top: 72px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 91px;
+text-align: right;
+
+color: #000000;
+}
+
+section h2{
+    position: absolute;
+width: 988px;
+height: 77px;
+left: 230px;
+top: 381px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 65px;
+text-align: center;
+
+color: #4C29CC;
+}
+
+section h3{
+    position: absolute;
+width: 1247px;
+height: 308px;
+left: 86px;
+top: 1418px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 58px;
+text-align: center;
+
+color: #07014D;
+
+}
+
+.description {
+
+    position: absolute;
+width: 1346px;
+height: 809px;
+left: 55px;
+top: 530px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 52px;
+
+color: #333333;
+}
+
+.Desktop7 {
+
+position: absolute;
+width: 1440px;
+height: 1876px;
+left: 0px;
+top: 1794px;
+border-radius: 9px;
+background: linear-gradient(90deg, rgba(162, 161, 238, 0.18) 0%, rgba(196, 196, 196, 0) 100%), linear-gradient(180deg, rgba(162, 161, 238, 0.11) 0%, rgba(196, 196, 196, 0) 100%);
+
+}
+
+
+.title7 h1 {
+
+position: absolute;
+width: 1007px;
+height: 62px;
+left: 366px;
+top: 43px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 62px;
+
+color: #4C29CC;
+}
+
+.img7 img{
+
+    position: absolute;
+width: 1127px;
+height: 842px;
+left: 160px;
+top: 151px;
+
+border-radius: 40px;
+}
+
+.gr1 
+{
+    position: absolute;
+width: 247px;
+height: 119px;
+left: 195px;
+top: 1233px;
+
+font-family: 'Caveat', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 39px;
+text-align: center;
+
+color: #000000;
+}
+
+.gr2 
+{
+    position: absolute;
+    width: 360px;
+    height: 165px;
+    left: 543px;
+    top: 1233px;
+    
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.gr3 
+{
+    position: absolute;
+    width: 316px;
+    height: 156px;
+    left: 1015px;
+    top: 1233px;
+    
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.gr4 
+{
+    position: absolute;
+    width: 174px;
+    height: 110px;
+    left: 231px;
+    top: 1511px;
+    
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.gr5 
+{
+    position: absolute;
+    width: 329px;
+    height: 64px;
+    left: 557px;
+    top: 1525px;
+    
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.gr6
+{
+    position: absolute;
+    width: 273px;
+    height: 117px;
+    left: 1037px;
+    top: 1491px;
+    
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+
+
+.Desktop4 {
+
+position: absolute;
+width: 1431px;
+height: 1543px;
+left: 9px;
+top: 3670px;
+
+    border-radius: 9px;
+    background: linear-gradient(180deg, #F6F9FF 0%, rgba(246, 249, 255, 0) 100%);
+    
+    }
+    
+
+footer {
+position: absolute;
+width: 1440px;
+height: 751px;
+left: 0px;
+top: 5213px;
+
+background: linear-gradient(89.04deg, rgba(76, 41, 204, 0.104) 0.82%, rgba(254, 172, 149, 0.16) 99.24%);
+border-radius: 9px;
+}
