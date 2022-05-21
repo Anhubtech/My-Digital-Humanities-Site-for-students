@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Mali:wght@500&display=swap');
- 
-body {
-    position: relative;
-width: 1440px;
-height: 5964px;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
-background: #FFFFFF;
+ 
+body 
+{
+position: absolute;
+width: 1024px;
+height: 2000px;
+margin: 0 auto;
 }
 
 
-.Desktop6 {
+header
+{ 
 position: absolute;
 width: 1440px;
 height: 1797px;
@@ -19,9 +22,15 @@ top: -3px;
 
 background: linear-gradient(89.04deg, rgba(76, 41, 204, 0.104) 0.82%, rgba(254, 172, 149, 0.16) 99.24%);
 border-radius: 9px;
-}
 
-header img{
+display: flex;
+margin: 0 auto;
+justify-content: center; 
+}
+ 
+
+header img
+{
     position: absolute;
     width: 456px;
     height: 337px;
@@ -31,7 +40,7 @@ header img{
 }
 
 header h1 {
-    position: absolute;
+position: absolute;
 width: 753px;
 height: 195px;
 left: 590px;
@@ -47,14 +56,14 @@ text-align: right;
 color: #000000;
 }
 
-section h2{
-    position: absolute;
+h2{
+position: absolute;
 width: 988px;
 height: 77px;
 left: 230px;
 top: 381px;
 
-font-family: PT Sans;
+font-family: 'Caveat';
 font-style: normal;
 font-weight: bold;
 font-size: 50px;
@@ -64,12 +73,13 @@ text-align: center;
 color: #4C29CC;
 }
 
-section h3{
-    position: absolute;
+ h3
+{
+position: absolute;
 width: 1247px;
 height: 308px;
 left: 86px;
-top: 1418px;
+top: 1350px;
 
 font-family: PT Sans;
 font-style: normal;
@@ -82,9 +92,10 @@ color: #07014D;
 
 }
 
-.description {
+.description 
+{
 
-    position: absolute;
+position: absolute;
 width: 1346px;
 height: 809px;
 left: 55px;
@@ -99,73 +110,54 @@ line-height: 52px;
 color: #333333;
 }
 
-.Desktop7 {
+main
+{
 
 position: absolute;
 width: 1440px;
-height: 1876px;
+height: 500px;
 left: 0px;
 top: 1794px;
 border-radius: 9px;
+
 background: linear-gradient(90deg, rgba(162, 161, 238, 0.18) 0%, rgba(196, 196, 196, 0) 100%), linear-gradient(180deg, rgba(162, 161, 238, 0.11) 0%, rgba(196, 196, 196, 0) 100%);
 
 }
 
 
-.title7 h1 {
-
-position: absolute;
-width: 1007px;
-height: 62px;
-left: 366px;
-top: 43px;
-
-font-family: PT Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 62px;
-
-color: #4C29CC;
-}
-
-.img7 img{
-
-    position: absolute;
-width: 1127px;
-height: 842px;
-left: 160px;
-top: 151px;
-
-border-radius: 40px;
-}
-
-.gr1 
+.main h1
 {
     position: absolute;
-width: 247px;
-height: 119px;
-left: 195px;
-top: 1233px;
-
-font-family: 'Caveat', cursive;
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 39px;
-text-align: center;
-
-color: #000000;
-}
-
-.gr2 
-{
-    position: absolute;
-    width: 360px;
-    height: 165px;
-    left: 543px;
-    top: 1233px;
+    width: 1007px;
+    height: 62px;
+    left: 366px;
+    top: 43px;
     
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    
+    color: #4C29CC; 
+}
+
+
+ul li
+{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    /* flex-direction:row; */
+}
+
+.labs-list
+{
+    /* flex-direction:row; */
+}
+
+.link
+{
     font-family: 'Caveat', cursive;
     font-style: normal;
     font-weight: 500;
@@ -173,102 +165,29 @@ color: #000000;
     line-height: 39px;
     text-align: center;
     
-    color: #000000;
+    color: #000000; 
 }
 
-.gr3 
+
+footer 
 {
-    position: absolute;
-    width: 316px;
-    height: 156px;
-    left: 1015px;
-    top: 1233px;
-    
-    font-family: 'Caveat', cursive;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 39px;
-    text-align: center;
-    
-    color: #000000;
-}
-
-.gr4 
-{
-    position: absolute;
-    width: 174px;
-    height: 110px;
-    left: 231px;
-    top: 1511px;
-    
-    font-family: 'Caveat', cursive;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 39px;
-    text-align: center;
-    
-    color: #000000;
-}
-
-.gr5 
-{
-    position: absolute;
-    width: 329px;
-    height: 64px;
-    left: 557px;
-    top: 1525px;
-    
-    font-family: 'Caveat', cursive;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 39px;
-    text-align: center;
-    
-    color: #000000;
-    
-}
-
-.gr6
-{
-    position: absolute;
-    width: 273px;
-    height: 117px;
-    left: 1037px;
-    top: 1491px;
-    
-    font-family: 'Caveat', cursive;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 39px;
-    text-align: center;
-    
-    color: #000000;
-    
-}
-
-
-
-.Desktop4 {
-
-position: absolute;
-width: 1431px;
-height: 1543px;
-left: 9px;
-top: 3670px;
-
-    border-radius: 9px;
-    background: linear-gradient(180deg, #F6F9FF 0%, rgba(246, 249, 255, 0) 100%);
-    
-    }
-    
-
-footer {
 position: absolute;
 width: 1440px;
-height: 751px;
+height: 200px;
 left: 0px;
-top: 5213px;
+top: 2293px;
 
 background: linear-gradient(89.04deg, rgba(76, 41, 204, 0.104) 0.82%, rgba(254, 172, 149, 0.16) 99.24%);
 border-radius: 9px;
 }
+
+ 
+ a
+{
+    text-decoration:none;
+} 
+
+a:hover
+{
+    color: rgb(243, 131, 237);
+} 
